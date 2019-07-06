@@ -9,7 +9,7 @@ function show_html(_data) {
   $("section").append("<ul></ul>");
   for (var i in items) {
     var html = '<li><a href="' + items[i].link + '">';
-    html += items[i].title + "<a/></li>";
+    html += items[i].title + "</a></li>";
     $("section ul").append(html);
   }
 }
